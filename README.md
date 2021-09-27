@@ -13,23 +13,25 @@ Let's see the list of HTML 5 form tags.
 
 ![App Screenshot](https://codebridgeplus.com/wp-content/uploads/html-form.jpg)
 
-## HTML form element
-The HTML form element provide a document section to take input from user. It provides various interactive controls for submitting information to web server such as text field, text area, password field, etc.
-The form element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc
+`NOTE:` The \<form> element does not itself create a form but it is container to contain all required form elements, such as \<input>, \<label>, etc.
 
-```bash
+## HTML  \<form> element 
+The HTML \<form> element provide a document section to take input from user. It provides various interactive controls for submitting information to web server such as text field, text area, password field, etc.
+The \<form> element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc
+
+```HTML
 <form>  
 //Form elements  
 </form>
 ```
 
-## The input Element
+## The \<input> Element
 
-The HTML input element is the most used form element.
+The HTML \<input> element is the most used form element.
 An input element can be displayed in many ways, depending on the type attribute.
 Here are some examples:
 
-```bash
+```HTML
 <!DOCTYPE html>
 <html>
 <body>
@@ -46,7 +48,7 @@ Here are some examples:
 
 The type="text" attribute of input tag creates textfield control also known as single line textfield control.
 
-```bash
+```HTML
 <!DOCTYPE html>
 <html>
 <h3>Example Of Text Field</h3>
@@ -61,11 +63,11 @@ The type="text" attribute of input tag creates textfield control also known as s
 
 ![App Screenshot](https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-12-13-at-10.03.09-PM.png)
 
-## HTML textarea tag in form
+## HTML \<textarea> tag in form
 
-The textarea tag in HTML is used to insert multiple-line text in a form. The size of textarea can be specify either using "rows" or "cols" attribute or by CSS.
+The <\textarea> tag in HTML is used to insert multiple-line text in a form. The size of textarea can be specify either using "rows" or "cols" attribute or by CSS.
 
-```bash
+```HTML
 <!DOCTYPE html>
 <html>
 <h3>Example of a Text Area Box</h3>
@@ -81,17 +83,17 @@ The textarea tag in HTML is used to insert multiple-line text in a form. The siz
 
 ![App Screenshot](https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-12-14-at-2.52.37-AM.png)
 
-## The label Element
+## The \<label> Element
 
-The label tag defines a label for many form elements.
-The label element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focus on the input element.
+The \<label> tag defines a label for many form elements.
+The \<label>element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focus on the input element.
 
 ## Radio Button Control
 
 The radio button is used to select one option from multiple options. It is used for selection of gender, quiz questions etc.
 If you use one name for all the radio buttons, only one radio button can be selected at a time.
 
-```bash
+```HTML
 <!DOCTYPE html>
 <html>
 <h3>Example of Radio Buttons</h3>
@@ -113,7 +115,7 @@ If you use one name for all the radio buttons, only one radio button can be sele
 ## Checkbox Control
 The checkbox control is used to check multiple options from given checkboxes
 
-```bash
+```HTML
 <!DOCTYPE html>
 <html>
 <h3>Example of HTML Checkboxes</h3>
@@ -138,7 +140,7 @@ The checkbox control is used to check multiple options from given checkboxes
 
 HTML input type="submit" are used to add a submit button on web page. When user clicks on submit button, then form get submit to the server. The Reset Button is used to reset the form data and use the default values.
 
-```bash
+```HTML
 <!DOCTYPE html>
 <html>
 <h3>Example of a Submit And Reset Button</h3>
@@ -160,7 +162,7 @@ HTML input type="submit" are used to add a submit button on web page. When use
 
 The password is not visible to the user in password field control.
 
-```bash
+```HTML
 
 <!DOCTYPE html>
 <html>
@@ -175,23 +177,24 @@ The password is not visible to the user in password field control.
 </html>
 ```
 
-![App Screenshot](https://i.stack.imgur.com/Po7JT.jpg)
+![App Screenshot](https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-12-13-at-10.10.26-PM.png)
 
 ## HTML 5 Email Field Control
 
 The email field in new in HTML 5. It validates the text for correct email address. You must use @ and . in this field.
-![App Screenshot](https://static.javatpoint.com/htmlpages/images/html-5-email-field-control2.png)
 
-## HTML fieldset element:
+![App Screenshot](https://mailtrap.io/wp-content/uploads/2020/05/html5_email_validation4.png)
 
-The fieldset element in HTML is used to group the related information of a form. This element is used with <legend> element which provide caption for the grouped elements.
+## HTML \<fieldset> element:
+
+The \<fieldset> element in HTML is used to group the related information of a form. This element is used with <legend> element which provide caption for the grouped elements.
 
 ![App Screenshot](https://docs.webix.com/media/desktop/form_fieldset.png)
 
 ## HTML Form Example
 Following is the example for a simple form of registration.
 
-```bash
+```HTML
 <!DOCTYPE html>  
  <html>  
  <head>  
@@ -225,11 +228,10 @@ Following is the example for a simple form of registration.
 ```
 ![App Screenshot](https://static.javatpoint.com/htmlpages/images/html-form-example.png)
 
-## Reference
-https://www.w3schools.com/html/html_forms.asp
-https://www.javatpoint.com/html-form
-https://www.geeksforgeeks.org/html-design-form/
-
+#### Reference links:
+- https://www.w3schools.com/html/html_forms.asp
+- https://www.javatpoint.com/html-form
+- https://www.geeksforgeeks.org/html-design-form/
 
 ## Contributed by Shital Punde
 
