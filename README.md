@@ -49,34 +49,37 @@ The type="text" attribute of input tag creates textfield control also known as s
 ```bash
 <!DOCTYPE html>
 <html>
+<h3>Example Of Text Field</h3>
 <body>
-<form>  
-  First Name: <input type="text" name="firstname"/> <br/>  
-  Last Name:  <input type="text" name="lastname"/> <br/>  
-</form>
+    <form>
+        <label for="EMAIL ID">Email Id:</label><br>
+        <input type="text" name="Email id" id="Email id">
+    </form>
 </body>
-</html> 
+</html>
 ```
 
-![App Screenshot](https://static.javatpoint.com/htmlpages/images/html-textfield-control.png)
+![App Screenshot](https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-12-13-at-10.03.09-PM.png)
 
 ## HTML textarea tag in form
 
 The textarea tag in HTML is used to insert multiple-line text in a form. The size of textarea can be specify either using "rows" or "cols" attribute or by CSS.
 
 ```bash
-<!DOCTYPE html>  
-<html>    
-<body>  
-  <form>  
-        Enter your address:<br>  
-      <textarea rows="2" cols="20"></textarea>  
-  </form>  
-</body>  
+<!DOCTYPE html>
+<html>
+<h3>Example of a Text Area Box</h3>
+<body>
+    <form>
+        <label for="Description">Description:</label>
+        <textarea rows="5" cols="50" name="Description"
+                            id="Description"></textarea>
+    </form>
+</body>
 </html>
 ```
 
-![App Screenshot](https://static.javatpoint.com/htmlpages/images/html-textarea-tag-in-form.png)
+![App Screenshot](https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-12-14-at-2.52.37-AM.png)
 
 ## The label Element
 
@@ -88,23 +91,89 @@ The label element is useful for screen-reader users, because the screen-reader
 The radio button is used to select one option from multiple options. It is used for selection of gender, quiz questions etc.
 If you use one name for all the radio buttons, only one radio button can be selected at a time.
 
-![App Screenshot](https://res.cloudinary.com/practicaldev/image/fetch/s--m5WmQIUZ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/c260ismydk1rj54ykvpt.png)
+```bash
+<!DOCTYPE html>
+<html>
+<h3>Example of Radio Buttons</h3>
+<body>
+    <form>
+        SELECT GENDER
+        <br>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label><br>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+    </form>
+</body>
+</html>
+```
+
+![App Screenshot](https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-12-14-at-3.08.52-AM.png)
 
 ## Checkbox Control
 The checkbox control is used to check multiple options from given checkboxes
 
-![App Screenshot](https://i.stack.imgur.com/xSqEw.jpg)
+```bash
+<!DOCTYPE html>
+<html>
+<h3>Example of HTML Checkboxes</h3>
+<body>
+    <form>
+        <b>SELECT SUBJECTS</b>
+        <br>
+        <input type="checkbox" name="subject" id="maths">
+        <label for="maths">Maths</label>
+        <input type="checkbox" name="subject" id="science">
+        <label for="science">Science</label>
+        <input type="checkbox" name="subject" id="english">
+        <label for="english">English</label>
+    </form>
+</body>
+</html>
+```
 
-## Submit button control
+![App Screenshot](https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-12-13-at-10.22.57-PM.png)
 
-HTML input type="submit" are used to add a submit button on web page. When user clicks on submit button, then form get submit to the server.
+## Submit and Reset button control
 
-![App Screenshot](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRP8DuEd20dJHNsEKtF7VOK0Ot9PoHmrhGh-yHwpdMnUqMjwk1nB-avhqM6wGu5p3sJnM&usqp=CAU)
+HTML input type="submit" are used to add a submit button on web page. When user clicks on submit button, then form get submit to the server. The Reset Button is used to reset the form data and use the default values.
+
+```bash
+<!DOCTYPE html>
+<html>
+<h3>Example of a Submit And Reset Button</h3>
+<body>
+    <form action="test.php" method="post" id="users">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="Username">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
+```
+
+![App Screenshot](https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-12-14-at-3.05.00-AM.png)
 
 
 ## HTML Password Field Control
 
 The password is not visible to the user in password field control.
+
+```bash
+
+<!DOCTYPE html>
+<html>
+<h3>Example of Password Field</h3>   
+<body>
+    <form>
+        <label for="user-password">Password:
+        </label><br>
+        <input type="password" name="user-pwd"id="user-password">
+    </form>
+</body>
+</html>
+```
 
 ![App Screenshot](https://i.stack.imgur.com/Po7JT.jpg)
 
@@ -155,3 +224,12 @@ Following is the example for a simple form of registration.
 
 ```
 ![App Screenshot](https://static.javatpoint.com/htmlpages/images/html-form-example.png)
+
+## Reference
+https://www.w3schools.com/html/html_forms.asp
+https://www.javatpoint.com/html-form
+https://www.geeksforgeeks.org/html-design-form/
+
+
+## Contributed by Shital Punde
+
